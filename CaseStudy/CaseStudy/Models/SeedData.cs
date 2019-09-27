@@ -52,7 +52,7 @@ namespace CaseStudy.Models
                     new CreditCards
                     {
                         Name = "SuperPremium",
-                        APR = 15,
+                        APR = 13,
                         IncomeNeeded = 60000.00M,
                         TextDescription = "The more Premium choice!",
                         ImageURL = "https://www.barclays.co.uk/content/dam/lifestyle-images/personal/credit-cards/ccard_forward_16_9.full.high_quality.png"
@@ -61,7 +61,7 @@ namespace CaseStudy.Models
                     new CreditCards
                     {
                         Name = "UltraPremium",
-                        APR = 15,
+                        APR = 12,
                         IncomeNeeded = 100000.00M,
                         TextDescription = "The most Premium choice!",
                         ImageURL = "https://www.barclays.co.uk/content/dam/lifestyle-images/personal/credit-cards/ccard_forward_16_9.full.high_quality.png"
