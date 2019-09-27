@@ -19,11 +19,12 @@ EntityFrameworkCore\Update-Database -Context CardContext
 
 Once the application is launched the user will be sent to the home page and can select the large 'CreditCard App'
 link. Once there they can fill out the webform to see which credit cards they are eligible for.
+If they are over 18 their data will be saved to the users database.
 
 From there they can view more information about each of the cards available to them.
 
-Using the 'Admin Panel' shortcut will take the user to a frontend of an sql database which they can then modify
-if desired.
+Using the 'Admin Panel' shortcut will take the user to a frontend of the users database which they can then 
+modify if desired.
 
 There are two sql databases that handle the data within this application, one for user data and one for credit card
 data.
