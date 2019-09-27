@@ -1,0 +1,40 @@
+﻿@model CaseStudy.Models.ResultsModel
+@{
+
+}
+
+@{
+    ViewData["Title"] = "Results";
+}
+
+<h1>Details</h1>
+
+<p>
+    Hello @Html.DisplayFor(model => model.FirstName)
+
+    !
+</p>
+
+<p>
+   We are pleased to announce that you meet the requirements for the following credit cards:
+</p>
+
+
+<table border="1" width="100%">
+    <tr>
+        <th>Card Name</th>
+        <th>APR</th>
+        <th>More Info</th>
+    </tr>
+    @for (int i = 0; i < Model.CardsAvailable.Length; i++)
+    {
+        <tr>
+            <td>@Model.CardsAvailable[i].Name</td>
+            <td>@Model.CardsAvailable[i].APR</td>
+            <td>   <a asp-action="CardView" asp-route-id="@Model.CardsAvailable[i].Id">More Info</a>   </td>
+
+        </tr>
+
+    }
+</table>
+
