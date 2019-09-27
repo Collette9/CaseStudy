@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\caseStudy\\CaseStudy\\CaseStudy\\CaseStudy.csproj": {}
+    "D:\\caseStudy\\Repo\\CaseStudy\\CaseStudy\\CaseStudy\\CaseStudy.csproj": {}
   },
   "projects": {
-    "D:\\caseStudy\\CaseStudy\\CaseStudy\\CaseStudy.csproj": {
+    "D:\\caseStudy\\Repo\\CaseStudy\\CaseStudy\\CaseStudy\\CaseStudy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\caseStudy\\CaseStudy\\CaseStudy\\CaseStudy.csproj",
+        "projectUniqueName": "D:\\caseStudy\\Repo\\CaseStudy\\CaseStudy\\CaseStudy\\CaseStudy.csproj",
         "projectName": "CaseStudy",
-        "projectPath": "D:\\caseStudy\\CaseStudy\\CaseStudy\\CaseStudy.csproj",
+        "projectPath": "D:\\caseStudy\\Repo\\CaseStudy\\CaseStudy\\CaseStudy\\CaseStudy.csproj",
         "packagesPath": "C:\\Users\\liamc\\.nuget\\packages\\",
-        "outputPath": "D:\\caseStudy\\CaseStudy\\CaseStudy\\obj\\",
+        "outputPath": "D:\\caseStudy\\Repo\\CaseStudy\\CaseStudy\\CaseStudy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
